@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 350px;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.flipped {
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #4CAF50;
+}
+
+.matched {
+    background-color: #ddd;
+    cursor: default;
+    opacity: 0.6;
+}
+
+.matched:hover {
+    transform: none;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #007B9A;
+}
+
+.game-stats {
+    margin: 20px;
+    font-size: 18px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#message {
+    margin: 20px;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #e7f3ff;
+    border-radius: 5px;
+    font-weight: bold;
+}
