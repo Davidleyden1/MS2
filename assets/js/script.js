@@ -1,4 +1,9 @@
+"use strict";
+
+/**Array to store all card objets in the game */
 let cards = [];
+
+/**Array to store currently flipped cards */
 let flippedCards = [];
 let moves = 0;
 let matches = 0;
@@ -6,6 +11,9 @@ let matches = 0;
 // Simple symbols for the game
 const symbols = ['🎯', '📚', '🎨'];
 
+/**
+ * Starts the memory game by initializing the board and resetting the game state.
+ */
 function startGame() {
     // Reset game
     cards = [];
@@ -115,3 +123,4 @@ function updateStats() {
     document.getElementById('moves').textContent = moves;
     document.getElementById('matches').textContent = matches;
 }
+ 
