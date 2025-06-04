@@ -2,7 +2,8 @@
 
 A responsive memory matching game built with vanilla HTML, CSS, and JavaScript. Players flip cards to find matching pairs in this educational and entertaining browser-based game.
 
-![Memory Card Game Screenshot] (assets/images/Homescreen_shot.png)
+![Memory Card Game Screenshot] (assets/images/homescreen_shot.png)
+
 
 [Live Demo](https://your-username.github.io/memory-card-game/)
 
