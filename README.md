@@ -163,7 +163,7 @@ Responsive design tested on multiple devices:
 - **Accessibility**: ARIA labels and semantic elements used
 
 #### CSS Validation
-- **W3C CSS Validator**: No errors found 
+- **W3C CSS Validator**: No errors found (assets/images/css_validation.png)
 - **Cross-browser Compatibility**: Vendor prefixes applied where needed
 - **Responsive Design**: Media queries properly implemented
 
