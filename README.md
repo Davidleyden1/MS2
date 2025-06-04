@@ -5,7 +5,7 @@ A responsive memory matching game built with vanilla HTML, CSS, and JavaScript. 
 ![Memory Card Game Screenshot] (https://github.com/Davidleyden1/MS2/blob/main/assets/images/homescreen_shot.png)
 
 
-[Live Demo](https://your-username.github.io/memory-card-game/)
+This website is live and can be accessed at https://davidleyden1.github.io/MS2/
 
 ## Table of Contents
 
