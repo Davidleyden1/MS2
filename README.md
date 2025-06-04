@@ -2,9 +2,9 @@
 
 A responsive memory matching game built with vanilla HTML, CSS, and JavaScript. Players flip cards to find matching pairs in this educational and entertaining browser-based game.
 
-![Memory Card Game Screenshot] ![Mempry Card Game Screenshot](assets/images/homescreen_shot.png)
+![Memory Card Game Screenshot](assets/images/homescreen_shot.jpg)
 
-(https://github.com/Davidleyden1/MS2/blob/main/assets/images/homescreen_shot.png)
+(https://github.com/Davidleyden1/MS2/blob/main/assets/images/homescreen_shot.jpg)
 
 
 
@@ -162,17 +162,17 @@ Responsive design tested on multiple devices:
 ### Code Validation
 
 #### HTML Validation
-- **W3C HTML Validator**: No errors found (https://github.com/Davidleyden1/MS2/blob/main/assets/images/html_checker.png)
+- **W3C HTML Validator**: No errors found (https://github.com/Davidleyden1/MS2/blob/main/assets/images/html_checker.jpg)
 - **Semantic Structure**: Proper heading hierarchy maintained
 - **Accessibility**: ARIA labels and semantic elements used
 
 #### CSS Validation
-- **W3C CSS Validator**: No errors found (https://github.com/Davidleyden1/MS2/blob/main/assets/images/css_validation.png)
+- **W3C CSS Validator**: No errors found (https://github.com/Davidleyden1/MS2/blob/main/assets/images/css_validation.jpg)
 - **Cross-browser Compatibility**: Vendor prefixes applied where needed
 - **Responsive Design**: Media queries properly implemented
 
 #### JavaScript Validation
-- **JSHint**: No significant errors found  (https://github.com/Davidleyden1/MS2/blob/main/assets/images/jshint_validation.png)
+- **JSHint**: No significant errors found  (https://github.com/Davidleyden1/MS2/blob/main/assets/images/jshint_validation.jpg)
 - **ES6 Features**: Modern JavaScript syntax validated
 - **Function Documentation**: Comprehensive JSDoc comments added
 
