@@ -1,23 +1,24 @@
 "use strict";
 
-/**Array to store all card objets in the game */
+
+//Array to store all card objets in the game
 let cards = [];
 
-/**Array to store currently flipped cards */
+// Array to store currently flipped cards
 let flippedCards = [];
 
-/**Counter for number of total number of moves made */
+// Counter for number of total number of moves made
 let moves = 0;
 
-
-/**counter for number of successful matches */
+// counter for number of successful matches
 let matches = 0;
 
-/**Simple symbols for the game */
+// Simple symbols for the game
 const symbols = ['🎯', '📚', '🎨'];
 
 /**
  * Starts the memory game by initialising the board and resetting the game state.
+ * note this is called from HTML file
  */
 function startGame() {
     // Reset game
@@ -48,8 +49,9 @@ function startGame() {
     updateStats();
     document.getElementById('message').textContent = 'Find all 3 pairs!';
 }
-
-/** Renders the game board, updates DOM, clears existing Board */
+/** 
+ * Renders the game board, updates DOM, clears existing Board 
+ * */
 function renderBoard() {
     const board = document.getElementById('game-board');
     board.innerHTML = '';
@@ -75,8 +77,10 @@ function renderBoard() {
         board.appendChild(cardElement);
     });
 }
-
-/** Handles the flipped card logic, validates if a card can be flipped, prevents flipping of already flipped/matched cards */
+/** 
+ * Handles the flipped card logic, validates if a card can be flipped,
+ * prevents flipping of already flipped/matched cards 
+ * */
 function flipCard(cardId) {
     const card = cards[cardId];
     
@@ -101,8 +105,10 @@ function flipCard(cardId) {
         }, 1000);
     }
 }
-
-/** Compares two flipped cards to determine if they match, updates game state based on match result and provides feedback */
+/** 
+ * Compares two flipped cards to determine if they match, 
+ * updates game state based on match result and provides feedback 
+ * */
 function checkMatch() {
     const [card1, card2] = flippedCards;
     
@@ -128,8 +134,10 @@ function checkMatch() {
     renderBoard();
     updateStats();
 }
-
-/**updates tje game statisitics display in the DOM, shows current move count and number of matches */
+/**
+ * Updates tje game statisitics display in the DOM, shows current 
+ * move count and number of matches 
+ * */
 function updateStats() {
     document.getElementById('moves').textContent = moves;
     document.getElementById('matches').textContent = matches;
