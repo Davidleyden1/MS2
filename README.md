@@ -4,9 +4,6 @@ A responsive memory matching game built with vanilla HTML, CSS, and JavaScript. 
 
 ![Mempry Card Game Screenshot](assets/images/homescreen_shot.jpg)
 
-(https://github.com/Davidleyden1/MS2/blob/main/assets/images/homescreen_shot.jpg)
-
-
 
 This website is live and can be accessed at https://davidleyden1.github.io/MS2/
 
@@ -162,7 +159,7 @@ Responsive design tested on multiple devices:
 ### Code Validation
 
 #### HTML Validation
-- **W3C HTML Validator**: No errors found (https://github.com/Davidleyden1/MS2/blob/main/assets/images/html_checker.jpg)
+- **W3C HTML Validator**: No errors found (assets/images/html_checker.jpg)
 - **Semantic Structure**: Proper heading hierarchy maintained
 - **Accessibility**: ARIA labels and semantic elements used
 
