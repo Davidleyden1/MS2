@@ -118,10 +118,6 @@ The game layout was designed with mobile-first approach:
 - **VS Code**: Development environment
 - **Chrome DevTools**: Testing and debugging
 
-## Testing
-
-### Manual Testing
-
 #### Game Functionality Testing
 
 | Test Case | Expected Result | Actual Result | Status |
@@ -162,17 +158,17 @@ Responsive design tested on multiple devices:
 ### Code Validation
 
 #### HTML Validation
-- **W3C HTML Validator**: No errors found
+- **W3C HTML Validator**: No errors found (assets/images/html_checker.png)
 - **Semantic Structure**: Proper heading hierarchy maintained
 - **Accessibility**: ARIA labels and semantic elements used
 
 #### CSS Validation
-- **W3C CSS Validator**: No errors found
+- **W3C CSS Validator**: No errors found 
 - **Cross-browser Compatibility**: Vendor prefixes applied where needed
 - **Responsive Design**: Media queries properly implemented
 
 #### JavaScript Validation
-- **JSHint**: No significant errors found 
+- **JSHint**: No significant errors found  
 - **ES6 Features**: Modern JavaScript syntax validated
 - **Function Documentation**: Comprehensive JSDoc comments added
 
