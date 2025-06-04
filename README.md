@@ -1,8 +1,8 @@
-# MS2# Memory Card Game
+# MS2 Memory Card Game
 
 A responsive memory matching game built with vanilla HTML, CSS, and JavaScript. Players flip cards to find matching pairs in this educational and entertaining browser-based game.
 
-![Memory Card Game Screenshot](https://via.placeholder.com/800x400/4CAF50/FFFFFF?text=Memory+Card+Game)
+![Memory Card Game Screenshot] (assets/images/Homescreen_shot.png)
 
 [Live Demo](https://your-username.github.io/memory-card-game/)
 
