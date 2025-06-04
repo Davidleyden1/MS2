@@ -159,17 +159,17 @@ Responsive design tested on multiple devices:
 ### Code Validation
 
 #### HTML Validation
-- **W3C HTML Validator**: No errors found (assets/images/html_checker.jpg)
+- **W3C HTML Validator**: No errors found ![HTML Checker Image](assets/images/html_checker.jpg)
 - **Semantic Structure**: Proper heading hierarchy maintained
 - **Accessibility**: ARIA labels and semantic elements used
 
 #### CSS Validation
-- **W3C CSS Validator**: No errors found (https://github.com/Davidleyden1/MS2/blob/main/assets/images/css_validation.jpg)
+- **W3C CSS Validator**: No errors found ![CSS Validation Image](assets/images/css_validation.jpg)
 - **Cross-browser Compatibility**: Vendor prefixes applied where needed
 - **Responsive Design**: Media queries properly implemented
 
 #### JavaScript Validation
-- **JSHint**: No significant errors found  (https://github.com/Davidleyden1/MS2/blob/main/assets/images/jshint_validation.jpg)
+- **JSHint**: No significant errors found  ![JSHINTImage](assets/images/jshint_validation.jpg)
 - **ES6 Features**: Modern JavaScript syntax validated
 - **Function Documentation**: Comprehensive JSDoc comments added
 
