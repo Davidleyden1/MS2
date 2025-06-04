@@ -5,14 +5,19 @@ let cards = [];
 
 /**Array to store currently flipped cards */
 let flippedCards = [];
+
+/**Counter for number of total number of moves made */
 let moves = 0;
+
+
+/**counter for number of successful matches */
 let matches = 0;
 
-// Simple symbols for the game
+/**Simple symbols for the game */
 const symbols = ['🎯', '📚', '🎨'];
 
 /**
- * Starts the memory game by initializing the board and resetting the game state.
+ * Starts the memory game by initialising the board and resetting the game state.
  */
 function startGame() {
     // Reset game
@@ -24,13 +29,13 @@ function startGame() {
     // Create pairs of cards
     let gameSymbols = [...symbols, ...symbols];
     
-    // Shuffle cards
+    // Shuffle cards using Fisher-yates algorithm
     for (let i = gameSymbols.length - 1; i > 0; i--) {
         let j = Math.floor(Math.random() * (i + 1));
         [gameSymbols[i], gameSymbols[j]] = [gameSymbols[j], gameSymbols[i]];
     }
     
-    // Create card objects
+    // Create card objects with properties for game state tracking
     cards = gameSymbols.map((symbol, index) => ({
         id: index,
         symbol: symbol,
@@ -38,11 +43,13 @@ function startGame() {
         matched: false
     }));
     
+    /** Initialise game display */
     renderBoard();
     updateStats();
     document.getElementById('message').textContent = 'Find all 3 pairs!';
 }
 
+/** Renders the game board, updates DOM, clears existing Board */
 function renderBoard() {
     const board = document.getElementById('game-board');
     board.innerHTML = '';
@@ -59,6 +66,7 @@ function renderBoard() {
             cardElement.textContent = '?';
         }
         
+        /** disables interaction with matched cards */
         if (card.matched) {
             cardElement.className += ' matched';
             cardElement.onclick = null;
@@ -68,6 +76,7 @@ function renderBoard() {
     });
 }
 
+/** Handles the flipped card logic, validates if a card can be flipped, prevents flipping of already flipped/matched cards */
 function flipCard(cardId) {
     const card = cards[cardId];
     
@@ -93,11 +102,12 @@ function flipCard(cardId) {
     }
 }
 
+/** Compares two flipped cards to determine if they match, updates game state based on match result and provides feedback */
 function checkMatch() {
     const [card1, card2] = flippedCards;
     
     if (card1.symbol === card2.symbol) {
-        // Match found
+        // Handles successful match
         card1.matched = true;
         card2.matched = true;
         matches++;
@@ -119,6 +129,7 @@ function checkMatch() {
     updateStats();
 }
 
+/**updates tje game statisitics display in the DOM, shows current move count and number of matches */
 function updateStats() {
     document.getElementById('moves').textContent = moves;
     document.getElementById('matches').textContent = matches;
