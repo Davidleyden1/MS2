@@ -2,7 +2,10 @@
 
 A responsive memory matching game built with vanilla HTML, CSS, and JavaScript. Players flip cards to find matching pairs in this educational and entertaining browser-based game.
 
-![Memory Card Game Screenshot] (https://github.com/Davidleyden1/MS2/blob/main/assets/images/homescreen_shot.png)
+![Memory Card Game Screenshot] ![Mempry Card Game Screenshot](assets/images/homescreen_shot.png)
+
+(https://github.com/Davidleyden1/MS2/blob/main/assets/images/homescreen_shot.png)
+
 
 
 This website is live and can be accessed at https://davidleyden1.github.io/MS2/
@@ -196,7 +199,7 @@ Responsive design tested on multiple devices:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/memory-card-game.git
+   git clone https://davidleyden1.github.io/MS2/
    cd memory-card-game
    ```
 
